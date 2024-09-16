@@ -8,7 +8,7 @@ import { RouterLink } from '@angular/router';
   imports: [RouterLink],
   template: `
     <header>
-      <a data-testid="back-button" routerlink="/home">Back</a>
+      <a data-testid="back-button" routerLink="/home">Back</a>
       <h1 data-testid="checklist-title">
         {{ checklist().title }}
       </h1>
